@@ -27,6 +27,10 @@ Short answer: [best overall choice], with one sentence explaining why.
 
 [Warnings, unknowns, and company-use caveats.]
 
+## Popularity Notes
+
+[Only include when relevant: suspicious star/download signals, corroborating adoption evidence, or limits in what could be checked.]
+
 ## Confidence
 
 [High/Medium/Low] because ...
@@ -39,6 +43,7 @@ For each finalist, include:
 - Fit evidence.
 - Maintenance/support evidence.
 - Adoption/community evidence.
+- Popularity integrity note when stars, trending status, or downloads materially affect the score.
 - Quality evidence.
 - License status.
 - When to choose it.

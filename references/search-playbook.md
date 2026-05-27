@@ -54,6 +54,7 @@ Prefer:
 - Package registry pages.
 - Official examples.
 - Credible community discussion.
+- Fork, watcher, contributor, dependent, and download signals that corroborate stars.
 
 Be cautious with:
 
@@ -62,7 +63,19 @@ Be cautious with:
 - Sponsored lists.
 - AI-generated package directories.
 - Repos with many stars but no install path.
+- Fast-growing or high-star repos whose forks, watchers, dependents, and contributor activity do not support the star count.
+- Package download counts without dependents or real usage evidence.
 
 ## Popularity Trap Check
 
-Before finalizing, search for alternatives to the obvious winner. Include "rejected popular options" when a highly visible repo loses due to fit, staleness, license, or quality risk.
+Before finalizing, search for alternatives to the obvious winner. Include "rejected popular options" when a highly visible repo loses due to fit, staleness, license, quality risk, or suspicious popularity signals.
+
+For any candidate whose apparent strength is mostly stars, collect enough corroborating evidence to answer:
+
+- Are forks and watchers proportionate to similar healthy projects?
+- Are there real contributors beyond the maintainers?
+- Are there production-looking issues, discussions, or support requests?
+- Does the package have dependents or credible downstream users?
+- If stargazer profiles are sampled, do they look like real developers rather than empty accounts?
+
+If these checks are unavailable, lower confidence instead of treating stars as proven adoption.

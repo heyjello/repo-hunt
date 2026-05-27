@@ -49,7 +49,7 @@ Scout output: candidate list, initial top 5, search terms used, and one-line evi
 
 ### Challenger
 
-Receive Scout's shortlist. Look for reasons the ranking may be wrong: stale maintenance, weak fit, license risk, poor documentation, unresolved issues, fragile governance, abandoned releases, overhyped popularity, or stronger missed alternatives.
+Receive Scout's shortlist. Look for reasons the ranking may be wrong: stale maintenance, weak fit, license risk, poor documentation, unresolved issues, fragile governance, abandoned releases, suspicious popularity signals, overhyped star counts, or stronger missed alternatives.
 
 Challenger output: objections, risk flags, suggested score adjustments, and any replacement candidates.
 
@@ -83,6 +83,8 @@ Never present license screening as legal advice. Recommend legal or compliance r
 
 - Do not rank by stars alone.
 - Every finalist needs evidence for fit, maintenance, adoption, quality, and license status.
+- Treat stars as weak adoption evidence unless forks, watchers, contributors, dependents, or credible community usage corroborate them.
+- Treat suspicious popularity as a risk signal, not an accusation, unless there is direct evidence of manipulation.
 - Penalize archived, stale, undocumented, unlicensed, or abandoned projects even if popular.
 - State uncertainty when data is thin or search tools are limited.
 - Prefer current primary sources over stale articles or copied lists.
